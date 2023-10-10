@@ -1,0 +1,22 @@
+.slick-prev {
+  display: none !important;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-slide div .top {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.slick-slide div {
+  padding: 0 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 0.5rem !important;
+  top: 15px !important;
+}

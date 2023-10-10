@@ -1,0 +1,57 @@
+html body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slick-slide div {
+  padding: 0 0.5rem;
+}
+
+.slick-slide div div {
+  padding: 0 0.5rem !important;
+  width: 100%;
+}
+
+.slick-prev .slick-next {
+  display: none !important;
+}
+@media only screen and (min-width: 850px) and (max-width: 950px) {
+  .tour-wrapper {
+    padding: 6rem !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+  .tour-wrapper {
+    padding: 6rem 4rem !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  .tour-wrapper {
+    padding: 6rem 2rem !important;
+  }
+
+  .slick-slide div {
+    padding: 0 0.3rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 599px) {
+  .tour-wrapper {
+    padding: 6rem 5rem !important;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .tour-wrapper {
+    padding: 6rem 2rem !important;
+  }
+}
+
+ul li NavLink .active {
+  color: red;
+}
